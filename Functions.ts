@@ -94,3 +94,18 @@ var display = x => {
     console.log("The function got " + x);
 }
 display(12);
+
+(function() {
+    var x = "Hello!!";
+    console.log(x);
+})() // the function invokes itself using a pair of parentheses ()
+
+
+function disp(s1:string):void;
+function disp(n1:number,s1:string):void;
+
+function disp(x:any, y?:any):void{
+    console.log(x);
+    console.log(y);
+}
+
