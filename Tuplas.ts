@@ -23,3 +23,9 @@ console.log("Items after push " + mytuple.length);
 console.log("Items before pop " + mytuple.length);
 console.log(mytuple.pop() + " popped from the tuple");
 console.log("Items after pop " + mytuple.length);
+
+console.log()
+var a = [10, "hello"];
+var [b,c] = a;
+console.log(b);
+console.log(c);
